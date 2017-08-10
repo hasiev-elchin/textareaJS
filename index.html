@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+		body {
+			margin: 0;
+		}
+
+        .container {
+            max-width: 900px;
+            height: 100vh;
+            margin: 0 auto;
+        }
+
+        .main {
+        	position: absolute;
+			top: 50%;
+			left: 50%;
+
+        	box-sizing: border-box;
+        	display: block;
+        	width: 400px;
+            height: 400px;
+            padding: 10px;
+            border: 1px solid #2F4F4F;
+            margin-left: -200px;
+            margin-top: -200px;
+
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+
+            background-color: #F5F5DC;
+            outline: none;
+            resize: none;
+        }
+
+        textarea.main {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="main"></div>
+        <textarea class="main"></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
